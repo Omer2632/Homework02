@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+body {
+  padding: 20px;
+  background-color: rgb(56, 56, 56);
+}
+h1 {
+  text-align: center;
+  color: rgb(156, 156, 181);
+  font-size: 3rem;
+  margin-top: 20px;
+}
+.img {
+  float: left;
+  margin-right: 10px;
+  height: 200px;
+}
+.img img {
+  height: 100%;
+}
+.img:hover {
+  height: 235px;
+}
+.baslik {
+  font-size: 30px;
+}
+
+.aciklama {
+  text-indent: 20px;
+  margin-top: 20px;
+}
+.cerceve {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  height: 250px;
+  border-radius: 8px;
+
+  background: linear-gradient(
+    153deg,
+    rgba(44, 156, 189, 1) 13%,
+    rgba(253, 29, 29, 1) 47%,
+    rgba(252, 176, 69, 1) 85%
+  );
+  padding: 15px;
+}
+.button {
+  float: right;
+  margin-top: 40px;
+  height: 50px;
+}
+.button a {
+  text-decoration: none;
+  background-color: rgb(39, 156, 29);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
